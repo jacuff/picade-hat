@@ -1,4 +1,5 @@
 # Picade HAT (Device-tree Overlay)
+This fork of picade-hat improves on the offical installer by including definitions for BTN7 and BTN8 on the HACK HEADER. I have them set as BTN7: KEY_VOLUMEUP <115> and BTN8: KEY_VOLUMEDOWN <114> found on multimedia keyboards.
 
 This repository contains the software you need to get started with your Picade HAT.
 

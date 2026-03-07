@@ -12,6 +12,8 @@ Params:
         button4
         button5
         button6
+	button7
+	button8
         enter
         escape
         coin

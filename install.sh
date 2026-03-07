@@ -9,9 +9,12 @@ CONFIG_BACKUP="$CONFIG.picade-preinstall"
 UDEV_RULES_FILE="etc/udev/rules.d/10-picade.rules"
 ASOUND_CONF_FILE="etc/asound.conf"
 
+# I turn audio=on so that I can select the headphone jack instead of the 3W speaker.
 CONFIG_LINES=(
 	"dtoverlay=picade"
-	"dtparam=audio=off"
+	"dtoverlay=picade,button7=115"
+	"dtoverlay=picade,button8=114"	
+	"dtparam=audio=on"
 	"hdmi_force_hotplug=1"
 )
 

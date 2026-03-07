@@ -211,6 +211,8 @@
 		button4 = <&button4>,"linux,code:0";
 		button5 = <&button5>,"linux,code:0";
 		button6 = <&button6>,"linux,code:0";
+		button7 = <&button7>,"linux,code:0";
+		button8 = <&button8>,"linux,code:0";
 		enter = <&enter>,"linux,code:0";
 		escape = <&escape>,"linux,code:0";
 		coin = <&coin>,"linux,code:0";
