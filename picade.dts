@@ -110,13 +110,13 @@
 				button7: button7{
 					label = "Button 7 / Vol Up";
 					linux,code = <115>;
-					gpios = <&gpio 14 1>;'
+					gpios = <&gpio 14 1>;
 				};
 
 				button8: button8{
 					label = "Button 8 / Vol Down";
 					linux,code = <114>;
-					gpios = <&gpio 15 1>;'
+					gpios = <&gpio 15 1>;
 				};
 
 				enter: enter {
@@ -203,8 +203,8 @@
 		button4 = <&button4>,"linux,code:0";
 		button5 = <&button5>,"linux,code:0";
 		button6 = <&button6>,"linux,code:0";
-		button7 = <&button7>,"linux,code:0":
-		button8 = <&button8>,"linux,code:0":
+		button7 = <&button7>,"linux,code:0";
+		button8 = <&button8>,"linux,code:0";
 		enter = <&enter>,"linux,code:0";
 		escape = <&escape>,"linux,code:0";
 		coin = <&coin>,"linux,code:0";
